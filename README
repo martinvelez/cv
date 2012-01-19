@@ -1,7 +1,16 @@
-= CV 
+= Resume/CV 
 
 == Description
 
-This repo contains my resume now.  After I start graduate schoo, it will 
-contain my curriculum vitae.
+This repo contains my resume. As my academic career progress, it will evolve
+into a curriculum vitae, CV.
 
+== To build 
+
+ pdflatex resume_martin_velez.tex
+
+== To clean generated files
+ rake clean
+
+== To clean ALL generated files (including PDF)
+ rake clobber
